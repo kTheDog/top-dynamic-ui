@@ -1,0 +1,62 @@
+
+.hide {
+  display: none;
+}
+
+
+.image-container > img {
+  display: none;
+}
+
+
+#current-slide {
+  display: block;
+}
+
+.carousel {
+
+  position: relative;
+  width: min-content;
+}
+
+.carousel > button {
+  position: absolute;
+  top:50%;
+  color: white;
+  border: none;
+  background-color: inherit;
+  z-index: 1;
+}
+
+#next-img {
+  right: 1%;
+}
+
+#prev-img {
+  left: 1%;
+}
+
+.img-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+
+
+#dots {
+  position: absolute;
+  display: flex;
+  width: min-content;
+  gap: 10px;
+  bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+.current-dot {
+  background-color: white;
+}
